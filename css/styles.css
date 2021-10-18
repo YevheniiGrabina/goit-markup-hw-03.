@@ -41,6 +41,8 @@ body {
 }
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-logo {
   color: var(--primary-text-color);
@@ -75,9 +77,11 @@ body {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  list-style: none;
 }
 .menu-item {
   margin-right: 50px;
+  list-style: none;
 }
 .header-nav {
   align-items: center;
@@ -93,6 +97,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  
 }
 .current {
   font-family: Roboto;
@@ -192,7 +197,6 @@ body {
   list-style: none;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1200px;
 }
 .feature-container {
   width: 1200px;
@@ -237,6 +241,7 @@ body {
   height: 386px;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 .section-title {
   color: var(--primary-text-color);
@@ -249,6 +254,8 @@ body {
 .section-title {
   padding-left: 612px;
   margin-bottom: 50px;
+ 
+
 }
 .box-list {
   list-style: none;
@@ -296,7 +303,15 @@ body {
 }
 .footer {
   background-color: var(--secondary-title-color);
+  width: 1600px;
+  height: 252px;
 }
+
+
+.footer-container{
+ display: flex;
+}
+
 .footer-logo {
   color: var(--primary-title-color);
   font-family: Raleway, sans-serif;
@@ -304,6 +319,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-left: 215px;
 }
 .web {
   color: var(--accent-color);
@@ -319,12 +338,34 @@ body {
   color: var(--primary-title-color);
   text-decoration: none;
   list-style: none;
+  margin-left: 215px;
+  display: block;
+}
+.mail{
+  display: block;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+.tel{
+  display: block;
+ padding-bottom: 60px;
+}
+ 
 }
 .title {
   visibility: hidden;
 }
 .filtr-list {
   list-style: none;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 34px;
+  margin-left: 495px;
+}
+.filtr-btn{
+  
+  background: #F5F4FA;
+  margin-right: 8px;
 }
 .btn {
   cursor: pointer;
@@ -335,8 +376,8 @@ body {
   line-height: 1.62;
   color: var(--primary-text-color);
   background: #f5f4fa;
-  border-radius: 4px;
   list-style: none;
+  border: none;
 }
 .btn-active {
   cursor: pointer;
@@ -347,8 +388,9 @@ body {
   line-height: 1.62;
   color: var(--primary-title-color);
   background: var(--accent-color);
-  border-radius: 4px;
   list-style: none;
+  border: none;
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -388,7 +430,6 @@ body {
   line-height: 1.71;
   color: var(--primary-title-color);
   text-decoration: none;
+  margin-bottom: 9px;
 }
-.list {
-  list-style: none;
-}
+

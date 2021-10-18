@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="topline">
-      <div class="container">
+      <div class="header-container">
       <a class="header-logo" href="index.html" lang="en">
         <span class="web">Web</span><span class="studio">Studio</span></a>
       <nav>
@@ -36,14 +36,14 @@
       </ul>
     </header>
     <main>
-      <section>
+      <section class="portfolio container">
         <h1 class="title">Фильтр</h1>
         <ul class="filtr-list">
-          <li><button type="button" class="btn-active">Все</button></li>
-          <li><button type="button" class="btn">Веб-сайты</button></li>
-          <li><button type="button" class="btn">Приложения</button></li>
-          <li><button type="button" class="btn">Дизайн</button></li>
-          <li><button type="button" class="btn">Маркетинг</button></li>
+          <li class="filtr-btn"><button type="button" class="btn-active">Все</button></li>
+          <li class="filtr-btn"><button type="button" class="btn">Веб-сайты</button></li>
+          <li class="filtr-btn"><button type="button" class="btn">Приложения</button></li>
+          <li class="filtr-btn"><button type="button" class="btn">Дизайн</button></li>
+          <li class="filtr-btn"><button type="button" class="btn">Маркетинг</button></li>
         </ul>
         <h2 class="title">Портфолио</h2>
         <ul class="list">
@@ -114,6 +114,7 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="footer-container"></div>
       <a class="footer-logo" href="index.html" lang="en"
         ><span class="web">Web</span>Studio</a
       >
@@ -122,10 +123,11 @@
           <li>
             <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li><a href="#" class="contacts">info@example.com</a></li>
-          <li><a href="#" class="contacts">+380991111111</a></li>
+          <li><a href="#" class="contacts mail">info@example.com</a></li>
+          <li><a href="#" class="contacts tel">+380991111111</a></li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
