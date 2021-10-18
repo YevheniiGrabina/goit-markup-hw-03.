@@ -35,7 +35,8 @@ body {
   height: 80px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -357,6 +358,8 @@ body {
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 34px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .filtr-btn {
   background: #f5f4fa;
@@ -417,7 +420,7 @@ body {
   border-radius: 4px;
 }
 .test-container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 215px;
@@ -434,6 +437,10 @@ body {
   list-style: none;
   border: 1px solid #EEEEEE;
 }
+.flex-element:nth-child(3n) {
+  margin-right: 0;
+}
+
 .project-list {
   font-family: Roboto;
   font-style: normal;
