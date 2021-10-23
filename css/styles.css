@@ -36,6 +36,7 @@ body {
   margin:0 auto 0 auto;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 .container {
   width: 1200px;
@@ -98,7 +99,7 @@ body {
 .contact-list {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  
   
 }
 .site-nav .link {
